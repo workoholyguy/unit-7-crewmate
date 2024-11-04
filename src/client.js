@@ -1,5 +1,10 @@
 import { createClient } from "@supabase/supabase-js";
-const API_KEY = import.meta.env.API_KEY;
-const URL = "https://ieqtzwpbivaqaajswfkv.supabase.co";
+
+let URL = import.meta.env.VITE_SUPABASE_URL;
+let API_KEY = import.meta.env.VITE_SUPABASE_ANON_KEY;
+
+if (!URL || !API_KEY) {
+  console.error("Supabase URL or API Key is missing.");
+}
 
 export const supabase = createClient(URL, API_KEY);

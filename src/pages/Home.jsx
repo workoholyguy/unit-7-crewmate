@@ -4,6 +4,7 @@ import { supabase } from "../client";
 import "./page-styles.css";
 import allCrew from "../assets/allcrew.png";
 import saucer from "../assets/flyingsaucer.png";
+// import { supabase } from "../client";
 
 function Home() {
   return (
