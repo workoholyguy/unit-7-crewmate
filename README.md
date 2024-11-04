@@ -1,21 +1,21 @@
-# Web Development Project 7 - *Name of App Here*
+# Web Development Project 7 - *Crewmate Creator*
 
-Submitted by: **Your Name Here**
+Submitted by: **Omar Madjitov**
 
-This web app: **insert description**
+This web app: **allows users to create, view, edit, and delete customized crewmates with unique attributes including name, speed, and color.**
 
-Time spent: **X** hours spent in total
+Time spent: **10** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [ ] **A create form allows users to add new cremates**
-- [ ] **Users can name the crewmate and set the crewmate's attributes by clicking on one of several values**
-- [ ] **The site displays a summary page of all the user's added crewmates**
-- [ ] **A previously created crewmate can be updated from the crewmate list**
-- [ ] **A previously created crewmate can be deleted from the crewmate list**
-- [ ] **Each crewmate has a direct, unique link to an info page about them**
+- [x] **A create form allows users to add new crewmates**
+- [x] **Users can name the crewmate and set the crewmate's attributes by clicking on one of several color options**
+- [x] **The site displays a summary page of all the user's added crewmates**
+- [x] **A previously created crewmate can be updated from the crewmate list**
+- [x] **A previously created crewmate can be deleted from the crewmate list**
+- [x] **Each crewmate has a direct, unique link to an info page about them**
 
 The following **optional** features are implemented:
 
@@ -25,7 +25,9 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-* [ ] List anything else that you added to improve the site's functionality!
+- [x] Customized box shadows for each crewmate based on their color
+- [x] Responsive design for improved display on mobile devices
+- [x] Animated navigation links for smoother user experience
 
 ## Video Walkthrough
 
@@ -33,20 +35,15 @@ Here's a walkthrough of implemented user stories:
 
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+GIF created with ScreenToGif
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+One challenge was handling state updates in the form fields when editing a crewmate. Initially, the crewmate details would disappear when typing in the form. This was resolved by carefully managing the `useState` hooks and controlling the input values directly.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2024] [Omar Madjitov]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
